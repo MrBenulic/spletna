@@ -197,35 +197,32 @@ body, html {
     color: white;
     font-weight: bold;
     font-size: 1.6em;
-    border: 7px solid #f1f1f1;
+    border: 4px solid #f1f1f1;
     border-radius: 4px;
     position: static; 
-    padding-left: 2em;
-    margin-left: 3em;
-    padding-right: 2em;
-    margin-right: 3em;
-    padding-top: 1em;
-    margin-top: 2em;
-    padding-bottom: 1em;
-    margin-bottom: 2em;
-    width: 20vw;
-    aspect-ratio: 16 / 9;    
+    padding: 0.5em 2em 0.5em 2em;
+    margin: 2em 3em 2em 4em;
+    width: 16vw;
+    aspect-ratio: 16/9;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   @media (max-width: 768px) {
     .about-title {
       font-size: 16px;
-      border: 5px solid #f1f1f1;
+      border: 3px solid #f1f1f1;
       margin-right: 6px;
-      margin-left: 6px;
+      margin-left: 44px;
       width: 140px;
       text-align: center;
     }
   }
 
   .about-body {
-    background-color: black;
+    background: linear-gradient(to bottom, #626060 25%, #000000 45%, #000000 65%);
   }
   
   .about-p {
